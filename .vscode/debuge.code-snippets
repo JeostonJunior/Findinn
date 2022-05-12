@@ -1,0 +1,13 @@
+{
+
+	"debuge": {
+		"scope": "php,html",
+		"prefix": "debuge",
+		"body": [
+			"echo'<pre>';",
+			"print_r();",
+			"echo'</pre>';exit;"
+		],
+		"description": "debuge code"
+	}
+}

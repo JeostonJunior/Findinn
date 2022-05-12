@@ -1,0 +1,7 @@
+# LIGA O REWRITE DE URLS(vai mandar para outro lugar do sistema);
+
+RewriteEngine on
+
+#Regra de rewrite tudo para o index
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ ./index.php [QSA,NC]
