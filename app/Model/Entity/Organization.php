@@ -7,6 +7,7 @@ namespace App\Model\Entity;
 class Organization
 {
 
+
     public $city = 'Salvador';
 
     public $cardText = ' Uma caminhada sobre a cidade colonial portuguesa. Você conhecerá a

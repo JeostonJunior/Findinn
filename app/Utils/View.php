@@ -18,7 +18,6 @@ class View
         self::$vars = $vars;
     }
 
-
     /**
      * Metrodo responsavel por retornar o conteudo de uma view
      * @param string $view
@@ -30,7 +29,6 @@ class View
         $file = __DIR__ . '/../../resources/View/' . $view;
         return file_exists($file) ? file_get_contents($file) : '';
     }
-
 
 
     /**
